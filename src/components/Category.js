@@ -7,7 +7,7 @@ export default function Category() {
 
   return (
     <>
-      <h2>{category.name} Sessions</h2>
+      <h2>{category.name} Diplomas</h2>
 
       <ul className="session-list">
         {category?.sessions.map(session => (
